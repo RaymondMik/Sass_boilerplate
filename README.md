@@ -2,7 +2,7 @@
 A simple Sass setup that can be easily implemented into your projects.
 
 <h2>How to use it</h2>
-If you haven't already, install Sass on your computer. You can learn more about Sass <a href="http://sass-lang.com/" target="blank">here</a><br>
+If you haven't already, install Sass on your computer. You can learn how to install and use Sass <a href="http://sass-lang.com/" target="blank">here</a>.<br>
 Then, just follow this steps:
 <ol>
   <li>Download the Sass Starter Kit files and add it to your project into a dedicated folder. </li>
