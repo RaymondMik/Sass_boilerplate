@@ -1,0 +1,65 @@
+/* This file outputs to css */
+/*==================================
+            Layout Logic
+==================================*/
+.column-1 {
+  width: 100%; }
+
+.column-2 {
+  width: 50%; }
+
+.column-3 {
+  width: 33.33333%; }
+
+.column-4 {
+  width: 25%; }
+
+.column-5 {
+  width: 20%; }
+
+.column-6 {
+  width: 16.66667%; }
+
+.text-regular {
+  color: #ccc; }
+
+.text-link {
+  color: #9bffff; }
+
+.text-hover {
+  color: #337ab7; }
+
+.text-focus {
+  color: #354a5f; }
+
+/*==================================
+            Base Styles 
+==================================*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red; }
+
+li a:hover {
+  color: #fff; }
+
+/*==================================
+        	Header Styles 
+==================================*/
+/*==================================
+        	Sidebar Styles 
+==================================*/
+/*==================================
+        	Footer Styles 
+==================================*/
+/*==================================
+            Typography
+==================================*/
+h1, h2, h3, h4, h5, h6 {
+  color: #23408f;
+  font-weight: bold; }
+
+p {
+  color: #ccc; }
+
+/*# sourceMappingURL=app.css.map */
