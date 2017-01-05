@@ -10,3 +10,6 @@ Then, just follow this steps:
   <li>Using the Terminal (Mac OS) or Command Prompt (Windows OS), move into the folder containing the Sass starter kit and run the command <code>sass --watch app.scss:app.css</code></li>
 </ol>
 That's it! Everytime you made a change to your <code>.scss</code> files Sass will automatically compile and bundle them into your main <code>app.css</code> file.
+
+<h4>Sass Version</h4>
+There is a Sass version available in a separate branch called 'sass_version'.
