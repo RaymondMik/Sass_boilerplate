@@ -12,4 +12,4 @@ Then, just follow this steps:
 That's it! Everytime you made a change to your <code>.scss</code> files Sass will automatically compile and bundle them into your main <code>app.css</code> file.
 
 <h4>Sass Version</h4>
-There is a Sass version available in a separate branch called 'sass_version'.
+There is a version using standard Sass syntax instead of SCSS available in a separate branch called 'sass_version'.
