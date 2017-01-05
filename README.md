@@ -7,6 +7,6 @@ Then, just follow this steps:
 <ol>
   <li>Download the Sass Starter Kit files and add it to your project into a dedicated folder. </li>
   <li>Include the <code>app.css</code> file into your project, since Sass will compile your CSS there. </li>
-  <li>Using the Terminal (Mac OS) or Command Prompt (Windows OS), move into the folder containing the Sass starter kit and run the command <code>sass --watch app.scss:app.css</code></li>
+  <li>Using the Terminal (Mac OS) or Command Prompt (Windows OS), move into the folder containing the Sass starter kit and run the command <code>sass --watch app.sass:app.css</code></li>
 </ol>
-That's it! Everytime you made a change to your <code>.scss</code> files Sass will automatically compile and bundle them into your main <code>app.css</code> file.
+That's it! Everytime you made a change to your <code>.sass</code> files Sass will automatically compile and bundle them into your main <code>app.css</code> file.
