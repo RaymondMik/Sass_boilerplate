@@ -1,9 +1,13 @@
 // Web Fonts
-@mixin font-face($family, $file, $extension) {
+@mixin font-face($family, $file, $extensions...) {
     @font-face {
         font-family: $family;
-        src: url('#{$path-font}/#{$file}.#{$extension}');
-    }
+        @each $val in $extensions {
+            src: url('#{$path-font}/#{$file}.#{$val}');
+        }
+        font-weight: normal;
+        font-style: normal;
+    }    
 }
 
 // Text
@@ -40,7 +44,7 @@
 }
 
 //animate mixin
-@mixin animate ( $attr, $time){
+@mixin animate ( $attr, $time ) {
     -webkit-transition: $attr $time ease;
     -moz-transition: $attr $time ease;
     -ms-transition: $attr $time ease;
