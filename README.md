@@ -1,4 +1,4 @@
-# Sass Starter Kit
+# Sass boilerplate
 A simple Sass setup that can be easily implemented into your projects.
 
 <h2>How to use it</h2>
